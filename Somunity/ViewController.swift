@@ -27,6 +27,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     // Dispose of any resources that can be recreated.
     }
     public func webViewDidStartLoad(webView: UIWebView){
+        myIndicator.center = webView.self.center;
         myIndicator.startAnimating();
     }
     public func webViewDidFinishLoad(webView: UIWebView){
