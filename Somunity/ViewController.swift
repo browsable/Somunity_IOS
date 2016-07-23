@@ -17,7 +17,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         super.viewDidLoad()
         webView.delegate = self
 
-        var url = NSURL(string: "https://52.192.204.226")
+        var url = NSURL(string: "http://ec2-52-192-204-226.ap-northeast-1.compute.amazonaws.com")
         var request = NSURLRequest(URL: url!)
         webView.loadRequest(request)
     }

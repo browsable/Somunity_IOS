@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="6hi-e6-QUm">
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="6hi-e6-QUm">
                                 <rect key="frame" x="290" y="290" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
@@ -34,7 +34,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myIndicator" destination="6hi-e6-QUm" id="S7M-R5-dCI"/>
+                        <outlet property="myIndicator" destination="6hi-e6-QUm" id="rZ9-dG-NZ5"/>
                         <outlet property="webView" destination="c3w-XY-hkZ" id="yLw-at-hGN"/>
                     </connections>
                 </viewController>
